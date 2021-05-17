@@ -19,12 +19,12 @@ z-index: 10
 
 export const NavbarContainer = styled.div`
 display: flex;
-justify-content: center;
+justify-content: end;
 height: 80px;
 z-index: 1;
 width: 100%;
 padding: 0 24px;
-max-width: 1100px;
+max-width: 1800px;
 `;
 
 export const NavLogo = styled(LinkRR)`
@@ -94,7 +94,7 @@ export const NavBtnLink = styled(LinkRR)`{
   background: #01bf71;
   white-space: nowrap;
   padding: 10px 22px;
-  color: #010606
+  color: #010606;
   font-size: 16px;
   outline: none;
   border: none;
