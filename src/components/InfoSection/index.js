@@ -28,11 +28,11 @@ export const InfoSection = ({lightBg, imgStart, topLine, lightText, darkText, he
                           </BtnWrap>
                       </TextWrapper>
                     </Column1>
-                        <Column2>
-                            <ImgWrap>
-                                <Img src={img.default} alt={alt} />
-                            </ImgWrap>
-                        </Column2>
+                    <Column2>
+                        <ImgWrap>
+                            <Img src={img.default} alt={alt} />
+                        </ImgWrap>
+                    </Column2>
                   </InfoRow>
               </InfoWrapper>
               </InfoContainer>  
